@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgc {                                      background-image: url('./img/ant-rozetsky-SLIFI67jv5k-unsplash.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.brand-name {
+    letter-spacing: 3px;
+    margin-left: 0.7rem;
+    font-size: 7vh;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+#main-p {
+    font-size: 2.5vh;
+    font-weight: 100;
+    font-family: 'Kurale', serif;
+}
+
+nav {
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlinks ul{
+    display: flex;
+}
+.navlinks li {
+    list-style: none;
+}
+
+.navlinks li:hover{
+    background-color: #565;
+}
+.navlinks li a {
+    text-decoration: none;
+    padding: 3rem;
+    color: whitesmoke;
+    display: block;
+    
+}
